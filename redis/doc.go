@@ -14,7 +14,7 @@
 
 // Package redis is a client for the Redis database.
 //
-// The Redigo FAQ (https://github.com/garyburd/redigo/wiki/FAQ) contains more
+// The Redigo FAQ (https://github.com/albert-wang/redigo/wiki/FAQ) contains more
 // documentation about this package.
 //
 // Connections
@@ -166,4 +166,4 @@
 //   if _, err := redis.Scan(reply, &value1, &value2); err != nil {
 //      // handle error
 //  }
-package redis // import "github.com/garyburd/redigo/redis"
+package redis // import "github.com/albert-wang/redigo/redis"

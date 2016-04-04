@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/garyburd/redigo/internal"
+	"github.com/albert-wang/redigo/internal"
 )
 
 var nowFunc = time.Now // for testing
@@ -409,7 +409,6 @@ func (sap *SentinelAwarePool) testConn(c Conn) error {
 	err := c.Err()
 	if err != nil {
 		return err
-		i
 	}
 	return sap.TestOnReturn(c)
 }
